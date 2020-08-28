@@ -1,0 +1,437 @@
+html
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body
+{
+    background-image: url("../images/background.jpg");
+    background-color: #101820;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.main-create
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn-create
+{
+    font-size: 1.37rem;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #c0df16;
+    color: #00123d;
+    padding: 0.5rem 2rem;
+    border: 0;
+    border-radius: 2rem;
+}
+
+.btn-create:hover
+{
+    background-color: #94b810;
+}
+
+.btn-create:focus
+{
+    outline: none;
+    background-color: #6f910c;
+    color: #c0df16;
+}
+
+h1
+{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.container
+{
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 3rem;
+}
+
+.create-container
+{
+    margin: 4rem 2rem;
+}
+
+.read-container
+{
+    margin: 4rem 2rem;
+}
+
+.box
+{
+    background: rgba(0,0,0,.25);
+    border: 1px solid #176567;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.box h3
+{
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.box p
+{
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.btn
+{
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.btn-read
+{
+    background: #2dccd3;
+    color: #0e0a13;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border: 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.btn-read:hover
+{
+    background: #21a1a9;
+}
+
+.btn-read:focus
+{
+    outline: none;
+    background: #18777e;
+    color: #2dccd3;
+}
+
+.btn-update
+{
+    background: #78d673;
+    color: #0e0a13;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border: 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.btn-update:hover
+{
+    background: #58ac54;
+}
+
+.btn-update:focus
+{
+    outline: none;
+    background: #40813d;
+    color: #78d673;
+}
+
+.btn-delete
+{
+    background: #ff0000;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border: 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.btn-delete:hover
+{
+    background: #bf0000;
+}
+
+.btn-delete:focus
+{
+    outline: none;
+    background: #7f0000;
+    color: #ff0000;
+}
+
+footer
+{
+    margin-top: 2rem;
+    background: rgba(0,0,0,.25);
+    color: #2dccd3;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.header
+{
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 1rem;
+    color: #2dccd3; 
+}
+
+
+.input
+{
+    width: 75%;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border: 1px solid #2dccd3;
+    background: rgba(0,0,0,.25);
+    color: #fff;
+}
+
+.input:focus
+{
+    outline: none;
+    border: 1px solid #2dccd3;
+    background: #2dccd3;
+    color: #101820;
+}
+
+textarea
+{
+    width: 75%;
+    height: 10rem;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid #2dccd3;
+    background: rgba(0,0,0,.25);
+    color: #fff;
+}
+
+textarea:focus
+{
+    outline: none;
+    border: 1px solid #2dccd3;
+    background: #2dccd3;
+    color: #101820;
+}
+
+.btn-createe
+{
+    font-size: 1rem;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #c0df16;
+    color: #00123d;
+    padding: 0.5rem 2rem;
+    border: 0;
+    border-radius: 2rem;
+}
+
+.btn-createe:hover
+{
+    background-color: #94b810;
+}
+
+.btn-createe:focus
+{
+    outline: none;
+    background-color: #6f910c;
+    color: #c0df16;
+}
+
+.alert-success
+{
+    background: #78d673;
+    color: #0e0a13;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.alert-create
+{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(192,223,22,1));
+    color: #00123d;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: left;
+    width: 75%;
+}
+
+.alert-update
+{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(120,214,115,1));
+    color: #0e0a13;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: left;
+    width: 75%;
+}
+
+.alert-read
+{
+    background: #2dccd3;
+    color: #0e0a13;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.alert-danger
+{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+#header
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.sub-header
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-align: center; 
+}
+
+.main-content
+{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #2dccd3;
+    text-align: center;  
+}
+
+.content
+{
+    font-size: 1rem;
+    padding: 0 2rem;
+    margin: 0 20rem 0 0;
+    color: #2dccd3;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.idd
+{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.image
+{
+    border: 1.5px solid #fff;
+    padding: .5rem;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-update
+{
+    border: 1.5px solid #2dccd3;
+    padding: .5rem;
+    margin: 1rem 0;
+    max-width: 300px;
+}
+
+.read-btn
+{
+    margin: 4rem 2rem;
+    text-align: center;
+}
+
+::placeholder
+{
+    color: #2dccd3;
+}
+
+/* Mobile CSS */
+@media(max-width: 700px)
+{
+    .logo-mobile
+    {
+        width: 250px;
+    }
+
+    .input
+    {
+        width: 99%;
+    }
+
+    textarea
+    {
+        width: 99%;
+    }
+
+    .alert-update
+    {
+        background: rgba(120,214,115,1);
+        width: 85%;
+    }
+
+    .read-container
+    {
+        margin: 1rem 0;
+    }
+
+    .image
+    {
+        max-width: 350px;
+    }
+
+    .content
+    {
+        text-align: justify;
+    }
+
+    .sub-header
+    {
+        font-size: 1.25rem; 
+    }
+}
